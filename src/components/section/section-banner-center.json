@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_section_section_banner_centers",
+  "info": {
+    "displayName": "📦-section-BannerCenter",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "banner_center": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::banner-center.banner-center"
+    }
+  }
+}

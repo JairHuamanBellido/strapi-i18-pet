@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_section_section_heroes",
+  "info": {
+    "displayName": "📦-section-Hero",
+    "icon": "warehouse",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section_hero": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::section-hero.section-hero"
+    }
+  }
+}

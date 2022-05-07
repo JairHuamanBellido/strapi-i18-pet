@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_section_section_stats",
+  "info": {
+    "displayName": "📦-section-Stats",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "stats": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::section-stat.section-stat"
+    }
+  }
+}

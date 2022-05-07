@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_component_section_titles",
+  "info": {
+    "displayName": "🧊-SectionTitle",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "tag": {
+      "type": "string",
+      "required": false
+    },
+    "body": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
