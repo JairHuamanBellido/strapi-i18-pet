@@ -17,8 +17,15 @@ module.exports = createCoreService("api::page.page", ({ strapi }) => ({
         "sections.stats.image",
         "sections.stats.stats",
         "sections.heading",
-        "sections.section_hero.image"
-      
+        "sections.section_hero.image",
+        "sections.section_story.heading",
+        "sections.section_story.image",
+        "sections.section_story.stories",
+        "sections.section_story.stories.person",
+        "sections.section_story.stories.person",
+        "sections.section_story.stories.person.image",
+        "sections.section_story.button",
+        "sections.section_story.button.link"
       ],
 
       where: {

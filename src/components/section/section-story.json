@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_section_section_stories",
+  "info": {
+    "displayName": "📦-section-Story",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "section_story": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::section-story.section-story"
+    }
+  }
+}

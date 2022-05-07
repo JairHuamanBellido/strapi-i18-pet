@@ -48,7 +48,8 @@
       "components": [
         "section.section-banner-center",
         "section.section-stats",
-        "section.section-hero"
+        "section.section-hero",
+        "section.section-story"
       ]
     }
   }
