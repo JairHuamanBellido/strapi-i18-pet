@@ -23,7 +23,7 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::story.story",
-      "inversedBy": "link_story"
+      "mappedBy": "link_story"
     }
   }
 }

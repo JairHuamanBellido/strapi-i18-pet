@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_section_section_card_stories",
+  "info": {
+    "displayName": "📦-section-CardStory",
+    "icon": "air-freshener",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section_card_story": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::section-card-story.section-card-story"
+    }
+  }
+}

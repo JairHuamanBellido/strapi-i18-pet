@@ -7,7 +7,7 @@
   },
   "options": {},
   "attributes": {
-    "stats": {
+    "section_stats": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::section-stat.section-stat"

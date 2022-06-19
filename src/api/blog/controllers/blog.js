@@ -12,8 +12,11 @@ module.exports = createCoreController("api::blog.blog", ({ strapi }) => ({
     const { id } = ctx.params;
     const { query } = ctx;
     const entity = await strapi.service("api::blog.blog").findOne(id, query);
-    const sanitizedEntity = await this.sanitizeOutput(entity, ctx);
+    return entity;
+  },
+  async find(ctx) {
+    const entities = await strapi.service("api::blog.blog").find(ctx);
 
-    return this.transformResponse(sanitizedEntity);
+    return entities;
   },
 }));

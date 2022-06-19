@@ -14,4 +14,12 @@ module.exports = createCoreService("api::blog.blog", ({ strapi }) => ({
     });
     return entries[0];
   },
+
+  async find(ctx) {
+    const entries = await strapi.entityService.findMany("api::blog.blog", {
+      ...ctx.query,
+    });
+    console.log(entries);
+    return entries;
+  },
 }));

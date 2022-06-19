@@ -16,7 +16,7 @@
     }
   },
   "attributes": {
-    "Title": {
+    "title": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -30,8 +30,7 @@
           "localized": true
         }
       },
-      "type": "uid",
-      "targetField": "Title"
+      "type": "uid"
     },
     "link": {
       "type": "relation",
@@ -49,7 +48,8 @@
         "section.section-banner-center",
         "section.section-stats",
         "section.section-hero",
-        "section.section-story"
+        "section.section-story",
+        "section.section-card-story"
       ]
     }
   }

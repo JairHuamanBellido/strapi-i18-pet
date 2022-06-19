@@ -13,9 +13,9 @@ module.exports = createCoreService("api::page.page", ({ strapi }) => ({
         "link",
         "sections",
         "sections.banner_center.heading",
-        "sections.stats.heading",
-        "sections.stats.image",
-        "sections.stats.stats",
+        "sections.section_stats.heading",
+        "sections.section_stats.image",
+        "sections.section_stats.stats",
         "sections.heading",
         "sections.section_hero.image",
         "sections.section_story.heading",
@@ -25,7 +25,10 @@ module.exports = createCoreService("api::page.page", ({ strapi }) => ({
         "sections.section_story.stories.person",
         "sections.section_story.stories.person.image",
         "sections.section_story.button",
-        "sections.section_story.button.link"
+        "sections.section_story.button.link",
+        "sections.section_card_story.stories",
+        "sections.section_card_story.stories.image",
+        "sections.section_card_story.stories.link_story"
       ],
 
       where: {
